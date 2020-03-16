@@ -1,0 +1,15 @@
+{
+  "ServerUri": "https://sonarcloud.io/",
+  "Organization": {
+    "Key": "feynmanfan-github",
+    "Name": "Chris B. Behrens"
+  },
+  "ProjectKey": "WebApplication1",
+  "ProjectName": "WebApplication1",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AWsfOEJrO8tkicJJ_WqS",
+      "ProfileTimestamp": "2019-05-07T10:01:40-05:00"
+    }
+  }
+}
