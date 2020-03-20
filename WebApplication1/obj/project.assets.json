@@ -2,6 +2,9 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "dotnet-framework-sonarscanner/4.8.0": {
+        "type": "package"
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4438,20 +4441,45 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
-      },
-      "CodeQuality.BusinessObjects/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/CodeQuality.BusinessObjects.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CodeQuality.BusinessObjects.dll": {}
-        }
       }
     }
   },
   "libraries": {
+    "dotnet-framework-sonarscanner/4.8.0": {
+      "sha512": "u+a+h/4Q8k2gWfoB6mVfnyaSk112KIdNxhFMDJR5m8DxuwVckJ6aBS9drPkYlGdmxjIRV+x3PkW6l311a56fZg==",
+      "type": "package",
+      "path": "dotnet-framework-sonarscanner/4.8.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnet-framework-sonarscanner.4.8.0.nupkg.sha512",
+        "dotnet-framework-sonarscanner.nuspec",
+        "tools/MSBuild.SonarQube.Runner.exe",
+        "tools/Microsoft.VisualStudio.Setup.Configuration.Interop.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/SonarQube.Analysis.xml",
+        "tools/SonarQube.Scanner.MSBuild.exe",
+        "tools/SonarScanner.MSBuild.Common.dll",
+        "tools/SonarScanner.MSBuild.PostProcessor.dll",
+        "tools/SonarScanner.MSBuild.PreProcessor.dll",
+        "tools/SonarScanner.MSBuild.Shim.dll",
+        "tools/SonarScanner.MSBuild.TFS.Classic.dll",
+        "tools/SonarScanner.MSBuild.TFS.dll",
+        "tools/SonarScanner.MSBuild.Tasks.dll",
+        "tools/SonarScanner.MSBuild.exe",
+        "tools/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/System.ValueTuple.dll",
+        "tools/Targets/SonarQube.Integration.ImportBefore.targets",
+        "tools/Targets/SonarQube.Integration.targets",
+        "tools/sonar-scanner-4.2.0.1873/bin/sonar-scanner",
+        "tools/sonar-scanner-4.2.0.1873/bin/sonar-scanner-debug",
+        "tools/sonar-scanner-4.2.0.1873/bin/sonar-scanner-debug.bat",
+        "tools/sonar-scanner-4.2.0.1873/bin/sonar-scanner.bat",
+        "tools/sonar-scanner-4.2.0.1873/conf/sonar-scanner.properties",
+        "tools/sonar-scanner-4.2.0.1873/lib/sonar-scanner-cli-4.2.0.1873.jar"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
       "type": "package",
@@ -5368,7 +5396,7 @@
       ]
     },
     "Microsoft.AspNetCore.Razor.Design/2.2.0": {
-      "sha512": "qslnmDEaFHn7ok+xWsqq4YwdKuVIBUV1PAym3OdfXXmMAyI034d5QWPloGDz/i2K2iK3BcFn4qDoBX+xEBAfAg==",
+      "sha512": "VLWK+ZtMMNukY6XjxYHc7mz33vkquoEzQJHm/LCF5REVxIaexLr+UTImljRRJBdUDJluDAQwU+59IX0rFDfURA==",
       "type": "package",
       "path": "microsoft.aspnetcore.razor.design/2.2.0",
       "hasTools": true,
@@ -12072,41 +12100,35 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
-    },
-    "CodeQuality.BusinessObjects/1.0.0": {
-      "type": "project",
-      "path": "../CodeQuality.BusinessObjects/CodeQuality.BusinessObjects.csproj",
-      "msbuildProject": "../CodeQuality.BusinessObjects/CodeQuality.BusinessObjects.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "CodeQuality.BusinessObjects >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.4",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "dotnet-framework-sonarscanner >= 4.8.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chris\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/joel.morales/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\AzureDevOps\\WebApplication\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "/Users/joel.morales/GitHub/WebApplication/WebApplication1/WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Code\\AzureDevOps\\WebApplication\\WebApplication1\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\AzureDevOps\\WebApplication\\WebApplication1\\obj\\",
+      "projectPath": "/Users/joel.morales/GitHub/WebApplication/WebApplication1/WebApplication1.csproj",
+      "packagesPath": "/Users/joel.morales/.nuget/packages/",
+      "outputPath": "/Users/joel.morales/GitHub/WebApplication/WebApplication1/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/joel.morales/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -12116,11 +12138,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {
-            "C:\\Code\\AzureDevOps\\WebApplication\\CodeQuality.BusinessObjects\\CodeQuality.BusinessObjects.csproj": {
-              "projectPath": "C:\\Code\\AzureDevOps\\WebApplication\\CodeQuality.BusinessObjects\\CodeQuality.BusinessObjects.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -12152,13 +12170,23 @@
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "dotnet-framework-sonarscanner": {
+            "target": "Package",
+            "version": "[4.8.0, )"
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
       }
     }
   }

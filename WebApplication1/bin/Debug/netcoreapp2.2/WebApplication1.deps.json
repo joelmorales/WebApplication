@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "f2bc562481a555daf97942a84c09c4f14174992d"
+    "signature": ""
   },
   "compilationOptions": {
     "defines": [
@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP2_2"
     ],
-    "languageVersion": "",
+    "languageVersion": "7.3",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -24,11 +24,11 @@
     ".NETCoreApp,Version=v2.2": {
       "WebApplication1/1.0.0": {
         "dependencies": {
-          "CodeQuality.BusinessObjects": "1.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.4",
-          "Microsoft.NETCore.App": "2.2.0"
+          "Microsoft.NETCore.App": "2.2.0",
+          "dotnet-framework-sonarscanner": "4.8.0"
         },
         "runtime": {
           "WebApplication1.dll": {}
@@ -37,6 +37,7 @@
           "WebApplication1.dll": {}
         }
       },
+      "dotnet-framework-sonarscanner/4.8.0": {},
       "Microsoft.EntityFrameworkCore/2.2.4": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "2.2.4",
@@ -147,14 +148,6 @@
           "System.Reflection.Extensions": "4.3.0",
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0"
-        }
-      },
-      "CodeQuality.BusinessObjects/1.0.0": {
-        "runtime": {
-          "CodeQuality.BusinessObjects.dll": {}
-        },
-        "compile": {
-          "CodeQuality.BusinessObjects.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3272,6 +3265,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "dotnet-framework-sonarscanner/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u+a+h/4Q8k2gWfoB6mVfnyaSk112KIdNxhFMDJR5m8DxuwVckJ6aBS9drPkYlGdmxjIRV+x3PkW6l311a56fZg==",
+      "path": "dotnet-framework-sonarscanner/4.8.0",
+      "hashPath": "dotnet-framework-sonarscanner.4.8.0.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore/2.2.4": {
       "type": "package",
       "serviceable": true,
@@ -3334,11 +3334,6 @@
       "sha512": "sha512-Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "path": "system.linq.queryable/4.0.1",
       "hashPath": "system.linq.queryable.4.0.1.nupkg.sha512"
-    },
-    "CodeQuality.BusinessObjects/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",
@@ -3826,7 +3821,7 @@
     "Microsoft.AspNetCore.Razor.Design/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qslnmDEaFHn7ok+xWsqq4YwdKuVIBUV1PAym3OdfXXmMAyI034d5QWPloGDz/i2K2iK3BcFn4qDoBX+xEBAfAg==",
+      "sha512": "sha512-VLWK+ZtMMNukY6XjxYHc7mz33vkquoEzQJHm/LCF5REVxIaexLr+UTImljRRJBdUDJluDAQwU+59IX0rFDfURA==",
       "path": "microsoft.aspnetcore.razor.design/2.2.0",
       "hashPath": "microsoft.aspnetcore.razor.design.2.2.0.nupkg.sha512"
     },

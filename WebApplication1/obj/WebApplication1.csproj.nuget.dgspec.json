@@ -1,75 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\AzureDevOps\\WebApplication\\WebApplication1\\WebApplication1.csproj": {}
+    "/Users/joel.morales/GitHub/WebApplication/WebApplication1/WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Code\\AzureDevOps\\WebApplication\\CodeQuality.BusinessObjects\\CodeQuality.BusinessObjects.csproj": {
+    "/Users/joel.morales/GitHub/WebApplication/WebApplication1/WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\AzureDevOps\\WebApplication\\CodeQuality.BusinessObjects\\CodeQuality.BusinessObjects.csproj",
-        "projectName": "CodeQuality.BusinessObjects",
-        "projectPath": "C:\\Code\\AzureDevOps\\WebApplication\\CodeQuality.BusinessObjects\\CodeQuality.BusinessObjects.csproj",
-        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\AzureDevOps\\WebApplication\\CodeQuality.BusinessObjects\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netstandard2.0": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461"
-          ],
-          "assetTargetFallback": true,
-          "warn": true
-        }
-      }
-    },
-    "C:\\Code\\AzureDevOps\\WebApplication\\WebApplication1\\WebApplication1.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Code\\AzureDevOps\\WebApplication\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "/Users/joel.morales/GitHub/WebApplication/WebApplication1/WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Code\\AzureDevOps\\WebApplication\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\AzureDevOps\\WebApplication\\WebApplication1\\obj\\",
+        "projectPath": "/Users/joel.morales/GitHub/WebApplication/WebApplication1/WebApplication1.csproj",
+        "packagesPath": "/Users/joel.morales/.nuget/packages/",
+        "outputPath": "/Users/joel.morales/GitHub/WebApplication/WebApplication1/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/joel.morales/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -79,11 +27,7 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {
-              "C:\\Code\\AzureDevOps\\WebApplication\\CodeQuality.BusinessObjects\\CodeQuality.BusinessObjects.csproj": {
-                "projectPath": "C:\\Code\\AzureDevOps\\WebApplication\\CodeQuality.BusinessObjects\\CodeQuality.BusinessObjects.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -115,13 +59,23 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "dotnet-framework-sonarscanner": {
+              "target": "Package",
+              "version": "[4.8.0, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
         }
       }
     }
